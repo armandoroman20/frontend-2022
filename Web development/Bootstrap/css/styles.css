@@ -8,6 +8,17 @@ body {
     padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat-bold', sans-serif;
 }
@@ -56,14 +67,11 @@ p {
 }
 
 /* Title Section */
-#title {
-    text-align: left;
-    background-color: #ff4c68;
-    color: #fff;
-}
+
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Title Image */
@@ -79,7 +87,6 @@ p {
 /* Features section*/
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -103,8 +110,7 @@ p {
 /* Testimonial Section  */
 
 #testimonials {
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #ef8172;
 }
 .testimonial-text{
     font-size: 3rem;
@@ -122,7 +128,7 @@ p {
 /* press section */
 
 #press {
-    background-color: #ff4c68;
+    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -148,16 +154,16 @@ p {
 
 /* CTA Section  */
 
-#cta {
+/* #cta {
     background-color: #ff4c68;
     color: white;
-}
+} */
 
 /* Footer Section */
 
-#footer {
+/* #footer {
     background-color: #fff;
-}
+} */
 
 .social-icons {
     margin: 20px 10px;
