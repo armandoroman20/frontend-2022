@@ -1,6 +1,11 @@
-let allButtons = document.querySelectorAll(".drum").length;
-for (var i = 0; i<allButtons; i++){
+let numberOfDrumButtons = document.querySelectorAll(".drum").length;
+for (var i = 0; i<numberOfDrumButtons; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-        alert("clicked!");
+        this.style.color = "white";
+        console.log(this);
     })
 }
+
+
+        // let audio = new Audio("sounds/tom-1.mp3");
+        // audio.play();
