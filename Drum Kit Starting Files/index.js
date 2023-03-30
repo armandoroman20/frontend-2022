@@ -1,12 +1,15 @@
-let numberOfDrumButtons = document.querySelectorAll(".drum").length;
+//  This is grabbing all the instances of the drum class 
+ let numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 
-// Detecting button click
-
-
+/* Detecting button click
+making a for loop for all the instances of the drum class
+*/
 for (var i = 0; i<numberOfDrumButtons; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         
+        // when we click a button the term "this" will grab the clicked instance, we also grab it's inner HTML
+
         let buttonInnerHTML = this.innerHTML;
         
         makeSound(buttonInnerHTML);
@@ -18,6 +21,7 @@ for (var i = 0; i<numberOfDrumButtons; i++){
 
 document.addEventListener("keydown", function (event) {
     
+    // the "event" term in the console shows us what key is pressed, we use it's object to grab the "key" that was pressed
     makeSound(event.key);
 
 
