@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Simon Game Challenge Starting Files",
+			"path": "../../Downloads/Simon Game Challenge Starting Files"
+		},
+		{
+			"name": "frontend-2022",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "frontend-2022"
+	}
+}
