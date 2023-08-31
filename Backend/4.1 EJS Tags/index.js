@@ -10,12 +10,6 @@ app.get("/", (req, res) => {
         items: ["apple", "banana", "cherry"],
         htmlContent: "<em>This is some em text</em>"
     };
-
-    if (data.seconds % 2 === 0) {
-        data.items;
-    } else {
-        "No items to display";
-    }
     
         res.render("index.ejs", data);
 });
